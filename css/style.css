@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "neuropol";
+    src: url("/css/fonts/neuropol.ttf");
+    font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+h1{
+    color: blue;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+#eslo{
+    color: blue;
+    text-transform: uppercase;
+}
+
+#masodik{
+    color: tomato;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.imgdiv{
+    background-color: rgba(123, 23, 12, 0.5);
+}
+
+html {
+    background-color: burlywood;
+}
+
+p{
+    color: grey;
+    font-family: 'roboto', sans-serif;
+    font-size: 24px;
+    line-height: normal;
+    text-align: justify;
+}
+
+img{
+    height: 200px;
+    box-shadow: 10px 10px 20px black;
+    margin: 20px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+
+.visi {
+    visibility: hidden;
+}
+
+.dispi {
+    display: none;
+}
