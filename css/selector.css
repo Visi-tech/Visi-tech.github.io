@@ -16,16 +16,26 @@ body{
 input[class*="control"]{
     display: block;
 }
+
 input[class^="blue"]{
     border: solid 1px blue;
 }
+
 input[class$="red"]{
     border: solid 1px red;   
 }
 
-.login-div button:hover{
-    box-shadow: 2px 2px 3px #c0c0c0;
+.login-div button{
+    background-color: turquoise;
+    border: none;
 }
+
+.login-div button:hover{
+    box-shadow: 2px 2px 3px #505050;
+    background-color: chartreuse;
+    border: none;
+}
+
 .login-div input:focus{
 border: 5px;
 }
@@ -40,4 +50,8 @@ ul li:first-child{
 
 ul li:nth-child(2){
     text-decoration: underline;
+}
+
+p span:hover{
+    color: yellowgreen;
 }
