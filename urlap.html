@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Személyes adatok:</legend>
+      <div>
+            <label for="name">név:* </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">email:* </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="address">cím*: </label>
+            <input type="text" name="address" id="address" required>
+        </div>
+        <div>
+            <label for="comment">Megjegyzés</label>
+            <textarea name="comment" id="comment" rows="5"></textarea>
+
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Megrendelés:</legend>
+
+        <span>checkbox</span>
+        <div>
+            <input type="checkbox" name="extra1" id="extra1" value="10">
+            <label for="">nem kérek</label>
+        </div>
+        <div>
+            <input type="checkbox" name="extra2" id="extra2" value="20">
+            <label for="">feltét 1</label>
+        </div>
+        <div>
+            <input type="checkbox" name="extra3" id="extra3" value="30">
+            <label for="">feltét 2</label>
+        </div>
+
+        <span>radio</span>
+        <div>
+            <input type="radio" name="extra100" id="nothing" value="0" checked="checked">
+            <label for="">feltét 2</label>
+        </div>
+        <div>
+            <input type="radio" name="extra100" id="extra101" value="10">
+            <label for="">feltét 2</label>
+            <label for="">feltét 2</label>
+        </div>
+        <div>
+            <input type="radio" name="extra100" id="extra102" value="20">
+            <label for="">feltét 3</label>
+        </div>
+
+        <div>
+            <label for="szosz">szószok</label>
+            <select id="szosz" name="szosz">
+                <option value="0" selected>szósz 1</option>
+                <option value="1">szósz 2</option>
+            </select>
+
+        </div>  
+
+        <div>
+            <label for="darab">Mennyiség: </label>
+              <input type="number" name="darab" id="darab" min="1" max="10">
+        </div>
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+</html>
